@@ -148,3 +148,12 @@ Check if the name you assigned is a palindrome or not. Palindrome means, that th
 if you reverse it.
 Ignore case sensitivity and strip it before checking.
 Print a descriptive message to inform the user if the name is a palindrome or not. (A good example is 'Anna').
+
+> Lottery winnings calculator
+Create a random integer from 1 up to 100. This is the winning number for this lottery.
+Create a second variable which is your guessing integer.
+If you guessed correctly then the prize is 100$.
+If the number you guessed is less than or equal to 10 numbers away from the winning number then you win the 100$
+but you lose 10$ for every number you are apart. For example, if the winning number is 68 and you have guessed 64. Then you win 60$, if you guessed 77 then you win 10$ etc.
+In any other case you win nothing.
+For all cases print both numbers, and the winnings that were calculated. 
