@@ -116,3 +116,28 @@ generated is bigger than 0.5 or not. (print also the number if you like).
 > Use the `randint` function of the `random` module to create a random integer between a range (let's say from 1 to 5) (both ends inclusive). And another variable which is a number of your choice. Check if you have guessed the number that was created randomly.
 
 #### Conditional flow with if statements
+
+1. `If` statement syntax (indentation) explained. How to spot which block of code will be executed and when.
+
+> Print a meaningful message to the console if you have guessed correctly the number from above challenge.
+
+2. `Else` statement. When this block will be executed? Used as a default block
+
+> Print a meaningful message to the console if the random number is different than the one you guessed.
+
+> Create a random integer from 1 to 100 and check if it's an odd number or even number.
+
+3. `elif` statements. Checking multiple times for more than one additional conditions.
+
+> Create 2 random integers from 1 to 10. Check if number A is bigger, if number B is bigger or if they are equal.
+
+> Re-write the leap year problem with if... else conditional blocks.
+**Bonus challenge** Do not use any logical operators (and, or, not) inside your if conditions. For any case print a
+relevant message to the console depending on, if the checked year is a leap year or not.
+
+> **The fizz_buzz problem**
+Create a number of your choice from 1 to 100.
+If the number is a multiple of 3 print to the console 'Fizz'
+If the number is multiple of 5 print to the console 'Buzz'
+If the number is both multiple of 3 and 5, print 'FizzBuzz'
+In any other case print the number itself.
