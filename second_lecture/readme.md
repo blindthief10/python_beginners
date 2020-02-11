@@ -141,3 +141,10 @@ If the number is a multiple of 3 print to the console 'Fizz'
 If the number is multiple of 5 print to the console 'Buzz'
 If the number is both multiple of 3 and 5, print 'FizzBuzz'
 In any other case print the number itself.
+
+> **Check palindrome problem**
+Create a variable and assign a name of your choice to it.
+Check if the name you assigned is a palindrome or not. Palindrome means, that the name can be written exactly the same
+if you reverse it.
+Ignore case sensitivity and strip it before checking.
+Print a descriptive message to inform the user if the name is a palindrome or not. (A good example is 'Anna').
