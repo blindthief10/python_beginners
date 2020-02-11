@@ -156,4 +156,19 @@ If you guessed correctly then the prize is 100$.
 If the number you guessed is less than or equal to 10 numbers away from the winning number then you win the 100$
 but you lose 10$ for every number you are apart. For example, if the winning number is 68 and you have guessed 64. Then you win 60$, if you guessed 77 then you win 10$ etc.
 In any other case you win nothing.
-For all cases print both numbers, and the winnings that were calculated. 
+For all cases print both numbers, and the winnings that were calculated.
+
+#### Repeat code execution with loops
+
+1. The while loop lifecycle example
+2. Syntax indentation
+3. Avoid infinite loops with correct condition, updating the value inside the loop and with the usage of the `break` keyword
+4. Different kinds of loops. `while` vs `for`. Use cases. Known vs unknown trials.
+
+> Print all numbers from 1 to 100
+
+> Print all even numbers from 1 to 100. Ignore the odd numbers.
+
+> Refactor the FizzBuzz problem so that it does the same thing for all numbers from 1 to 100 and not only for one number.
+
+> Solve the ship container problem 
