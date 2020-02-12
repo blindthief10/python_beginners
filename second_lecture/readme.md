@@ -11,8 +11,8 @@
 5. We saw how to detect the type of a value by using the `type` function.
 6. We wrote `comments` to document our code. Both single-line and multi-line.
 7. An introduction to `int` (**integer**) data type and all basic math operations
-that come with it, such as `**addition**, **subtraction**, **multiplication**, **division**
-and the **modulo** operator which returns the **remainder** of a division.`
+that come with it, such as **addition**, **subtraction**, **multiplication**, **division**
+and the **modulo** operator which returns the **remainder** of a division.
 8. We imported the `math` module and used `sqrt` function to calculate the square root of a number.
 9. We created our first `strings`. Used the `+` operator, in order to concatenate multiple strings
 into one.
