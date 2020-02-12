@@ -55,8 +55,6 @@ print(first_name.upper()) #prints 'JAKE' to the console
 4. Select the last three letters
 5. Select and print the reversed version of the name
 
-> Possible exercises here:
-
 #### Boolean values
 
 What are **boolean** values and how many possible values can they take? What do these values represent? True, False, Both?
@@ -85,7 +83,7 @@ In such case, arithmetical operators **always execute first**, comparison operat
 > An example would be checking the following code `5 + 2 > 10 - 4`. This expression should evaluate to True as 7 is greater
 than 6
 
-> Possible exercise: Create two string variables of your choices and assign each a different username of your choice. Check what
+> Coding challenge: Create two string variables of your choices and assign each a different username of your choice. Check what
 is the outcome of comparison by assuming that the first string is longer than the second one. Remove any unused space before and after each string, before making the comparison.
 
 3. Combining such statements with **logical operators**
@@ -171,4 +169,16 @@ For all cases print both numbers, and the winnings that were calculated.
 
 > Refactor the FizzBuzz problem so that it does the same thing for all numbers from 1 to 100 and not only for one number.
 
-> Solve the ship container problem 
+> Solve the ship container problem
+Suppose you own a ship.
+This is ship can carry up to 10.000 Kg in terms of weight.
+A merchant wants you to carry his goods with your ship.
+He has 500 containers and he wants you to carry as many as possible. All containers have an identifying number from 1 to 500.
+The first 100 containers weight 10Kg each.
+The containers with number from 101 up to 200 (included) weight 20kg each.
+The containers with number from 201 up to 250 (included) weight 50kg each.
+The containers with number from 251 up to 300 (included) weight 100kg each.
+The containers with number from 301 up to 400 (included) weight 200kg each.
+The rest weight 500 Kg each.
+Put as many containers as possible without sinking your ship. Find a way to stop adding weight if you surpass the limit your ship can afford.
+Print to the console exact how many containers you have included to your ship and how much is the difference between the total weight of the containers and the weight your ship can afford (free available weight).
