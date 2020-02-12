@@ -135,26 +135,26 @@ relevant message to the console depending on, if the checked year is a leap year
 
 > **The fizz_buzz problem**
 Create a number of your choice from 1 to 100.
-If the number is a multiple of 3 print to the console 'Fizz'
-If the number is multiple of 5 print to the console 'Buzz'
-If the number is both multiple of 3 and 5, print 'FizzBuzz'
-In any other case print the number itself.
+1. If the number is a multiple of 3 print to the console 'Fizz'
+2. If the number is multiple of 5 print to the console 'Buzz'
+3. If the number is both multiple of 3 and 5, print 'FizzBuzz'
+4. In any other case print the number itself.
 
 > **Check palindrome problem**
 Create a variable and assign a name of your choice to it.
-Check if the name you assigned is a palindrome or not. Palindrome means, that the name can be written exactly the same
+* Check if the name you assigned is a palindrome or not. Palindrome means, that the name can be written exactly the same
 if you reverse it.
-Ignore case sensitivity and strip it before checking.
-Print a descriptive message to inform the user if the name is a palindrome or not. (A good example is 'Anna').
+* Ignore case sensitivity and strip it before checking.
+* Print a descriptive message to inform the user if the name is a palindrome or not. (A good example is 'Anna').
 
 > Lottery winnings calculator
-Create a random integer from 1 up to 100. This is the winning number for this lottery.
-Create a second variable which is your guessing integer.
-If you guessed correctly then the prize is 100$.
-If the number you guessed is less than or equal to 10 numbers away from the winning number then you win the 100$
+* Create a random integer from 1 up to 100. This is the winning number for this lottery.
+* Create a second variable which is your guessing integer.
+* If you guessed correctly then the prize is 100$.
+* If the number you guessed is less than or equal to 10 numbers away from the winning number then you win the 100$
 but you lose 10$ for every number you are apart. For example, if the winning number is 68 and you have guessed 64. Then you win 60$, if you guessed 77 then you win 10$ etc.
-In any other case you win nothing.
-For all cases print both numbers, and the winnings that were calculated.
+* In any other case you win nothing.
+* For all cases print both numbers, and the winnings that were calculated.
 
 #### Repeat code execution with loops
 
@@ -170,15 +170,14 @@ For all cases print both numbers, and the winnings that were calculated.
 > Refactor the FizzBuzz problem so that it does the same thing for all numbers from 1 to 100 and not only for one number.
 
 > Solve the ship container problem
-Suppose you own a ship.
-This is ship can carry up to 10.000 Kg in terms of weight.
-A merchant wants you to carry his goods with your ship.
-He has 500 containers and he wants you to carry as many as possible. All containers have an identifying number from 1 to 500.
-The first 100 containers weight 10Kg each.
-The containers with number from 101 up to 200 (included) weight 20kg each.
-The containers with number from 201 up to 250 (included) weight 50kg each.
-The containers with number from 251 up to 300 (included) weight 100kg each.
-The containers with number from 301 up to 400 (included) weight 200kg each.
-The rest weight 500 Kg each.
-Put as many containers as possible without sinking your ship. Find a way to stop adding weight if you surpass the limit your ship can afford.
-Print to the console exact how many containers you have included to your ship and how much is the difference between the total weight of the containers and the weight your ship can afford (free available weight).
+* Suppose you own a ship. This is ship can carry up to 10.000 Kg in terms of weight.
+* A merchant wants you to carry his goods with your ship.
+* He has 500 containers and he wants you to carry as many as possible. All containers have an identifying number from 1 to 500.
+* The first 100 containers weight 10Kg each.
+* The containers with number from 101 up to 200 (included) weight 20kg each.
+* The containers with number from 201 up to 250 (included) weight 50kg each.
+* The containers with number from 251 up to 300 (included) weight 100kg each.
+* The containers with number from 301 up to 400 (included) weight 200kg each.
+* The rest weight 500 Kg each.
+* Put as many containers as possible without sinking your ship. Find a way to stop adding weight if you surpass the limit your ship can afford.
+* Print to the console exact how many containers you have included to your ship and how much is the difference between the total weight of the containers and the weight your ship can afford (free available weight).
