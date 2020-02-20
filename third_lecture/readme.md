@@ -88,7 +88,7 @@ At the end of the day your list is the followed:
 'mobile','desktop','cable','cable','desktop','mobile','desktop','headphones','desktop','mobile','laptop','cable','desktop',
 'mobile','headphones','desktop','cable','desktop','mobile','mobile','laptop','desktop','laptop','mobile','cable','mobile',
 'mobile','desktop','laptop','laptop','mobile','laptop','laptop','headphones','mobile','headphones','desktop','mobile','mobile',
-'desktop','cable','headphones','cable','headphones','laptop','laptop','cable','mobile','headphones','desktop','laptop','laptop',
+'desktop','cable','headphones','cable','headphones','laptop','laptop','cable','mobile','headphones','desktop','laptop','laptop,
 'laptop','headphones','mobile','headphones','cable','cable','mobile','cable','laptop','headphones','desktop','mobile','mobile',
 'desktop', 'mobile', 'cable', 'desktop' ]
 Write a piece of code that makes of use of this data to summarize a dictionary that depicts how many items were sold by category.
