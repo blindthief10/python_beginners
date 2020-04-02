@@ -179,14 +179,24 @@ That continues until the end of the day.
 Find out how much money your cashier has if the initial cashier was already at 150$ and the total number of customers at the end of the day was 78.
 
 > Solve the ship container problem
-* Suppose you own a ship. This is ship can carry up to 10.000 Kg in terms of weight.
-* A merchant wants you to carry his goods with your ship.
-* He has 500 containers and he wants you to carry as many as possible. All containers have an identifying number from 1 to 500.
-* The first 100 containers weight 10Kg each.
-* The containers with number from 101 up to 200 (included) weight 20kg each.
-* The containers with number from 201 up to 250 (included) weight 50kg each.
-* The containers with number from 251 up to 300 (included) weight 100kg each.
-* The containers with number from 301 up to 400 (included) weight 200kg each.
-* The rest weight 500 Kg each.
-* Put as many containers as possible without sinking your ship. Find a way to stop adding weight if you surpass the limit your ship can afford.
-* Print to the console exact how many containers you have included to your ship and how much is the difference between the total weight of the containers and the weight your ship can afford (free available weight).
+# First refresher exercise
+
+* Suppose you own a ship with three levels as garage space.
+* First floor, go the light containers.
+* Second floor, the medium weight containers.
+* Third floor, the heavy ones.
+* Each container has an id from 1 to 100. You pick one randomly.
+* Containers with id from 1 to 30 are considered light,
+* Containers with id from 31 to 70, medium weight,
+* The rest heavy weight.
+
+After picking one container only, and that randomly, print to the console the id of the container
+and in which floor it is destined to end up.
+
+Check if your job is accurate.
+
+# Second referesher exercise
+
+### Modify the existing container problem
+
+Instead of picking one random container, do this for all 100 containers. Place them accordingly and Print the correct message to the console
