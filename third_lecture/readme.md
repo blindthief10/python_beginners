@@ -54,7 +54,7 @@ free to [learn more about lists here](https://www.w3schools.com/python/python_li
 #### Lists exercises
 
 > Rolling a die histogram
-* Create an empty list. Populate this list with 6 random integers between 0 and 20. After that display your results like a
+* Create an empty list. Populate this list with 50 random integers between 1 and 6. After that display your results like a
 histogram as it's shown [here](https://www.codewars.com/kata/57d532d2164a67cded0001c7).
 
 > Create 2 empty lists. These lists should hold all test scores of participants for a given test in 2 different classes.
@@ -63,13 +63,14 @@ histogram as it's shown [here](https://www.codewars.com/kata/57d532d2164a67cded0
 * Find out first which class has more participants.
 * Find out which class has a bigger average score than the other. Using the `sum()` function could be helpful here, since
 you can already calculate the number of items within the list.
-* **Bonus challenge**: Calculate also the standard deviation for each list. Standard deviation is the sum of squares of differences between each value and the average. For example (x1-avg) ** 2 + (x2-avg) ** 2 + ... + (xn - avg) ** 2
+* **Bonus challenge**: Calculate also the variance for each list. variance is the sum of squares of differences between each value and the average, divided by the length of the sample - 1. For example ((x1-avg) ** 2 + (x2-avg) ** 2 + ... + (xn - avg) ** 2 ) / sample's length - 1).
+* **Bonus nr2** Calculate the standard deviation for each list. Standard deviation is the simply variance's square root.
 * **Extra Bonus**: What is the percentage of students who failed the test. Whose score was below 50 in other words.
 
 > Santa Klaus naughty list. Help Santa to detect and filter who deserves to have gifts or not.
 * Candidates are: Anna, Bill, James, Jake, Jessica, John, Niels, Marco, Chris, Laura, Bettina, George
-* The naughty list ist comprised of: Chris, Jessica and Bill
-Write a piece of code that prints to the console the names of those who deserve to take a gift from santa.
+* The naughty list is comprised of: Chris, Jessica and Bill
+Write a piece of code that prints to the console the names of those who deserve to take a gift from Santa.
 
 #### Working with dictionaries
 
@@ -95,3 +96,17 @@ At the end of the day your list is the followed:
 
 > Write a piece of code that makes of use of this data to summarize a dictionary that depicts how many items were sold by category.
 For example: {'headphones': 12, 'mobile': 14, 'laptop': 22, 'cable': 7, 'desktop': 11}
+
+#### Write reusable code with functions
+
+> How do we define a function with `def my_function()` keyword definition
+> Execute the dictionary sales transformation function above at will by encapsulating it in a function
+> Re use this with any kind of data by using arguments
+> The  `return` keyword and it's use
+
+##### Further exercises with function
+
+* Write a function that accepts a list of strings as an argument and returns it's biggest string
+* Write a function that accepts Fahrenheit degrees and converts it into Celsius degrees for temperature [Find the formula here](https://www.rapidtables.com/convert/temperature/fahrenheit-to-celsius.html)
+* Write a function that given a list of tests, returns the length of participants, their average score,
+the variance, the standard deviation and the failure percentage in a dictionary with meaningful keys.
