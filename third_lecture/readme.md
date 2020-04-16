@@ -51,6 +51,10 @@
 > Lists play a vital role to python, as a programming language and in data science field in particular. So feel
 free to [learn more about lists here](https://www.w3schools.com/python/python_lists.asp)
 
+#### Advanced List comprehension
+
+> How to create lists in a very compact way. Syntax
+
 #### Lists exercises
 
 > Rolling a die histogram
@@ -81,21 +85,16 @@ Write a piece of code that prints to the console the names of those who deserve 
 
 #### Dictionaries' exercises
 
+> First Exercise example: Users and premium accounts together
+
 > You work as a salesman in a small shop that sells electronic devices. Mainly laptops, desktops, mobiles, headphones
 and cables. For each sell you just append the type of the item at the end of a list which contains all sold items for
 the day.
 At the end of the day your list is the followed:
 
-> ['headphones','desktop','headphones','mobile','mobile','desktop','laptop','headphones','desktop','desktop','cable','laptop',
-'mobile','desktop','cable','cable','desktop','mobile','desktop','headphones','desktop','mobile','laptop','cable','desktop',
-'mobile','headphones','desktop','cable','desktop','mobile','mobile','laptop','desktop','laptop','mobile','cable','mobile',
-'mobile','desktop','laptop','laptop','mobile','laptop','laptop','headphones','mobile','headphones','desktop','mobile','mobile',
-'desktop','cable','headphones','cable','headphones','laptop','laptop','cable','mobile','headphones','desktop','laptop','laptop,
-'laptop','headphones','mobile','headphones','cable','cable','mobile','cable','laptop','headphones','desktop','mobile','mobile',
-'desktop', 'mobile', 'cable', 'desktop']
-
+> ['headphones','desktop','headphones','mobile','mobile','desktop','laptop','headphones','desktop','desktop','cable']
 > Write a piece of code that makes of use of this data to summarize a dictionary that depicts how many items were sold by category.
-For example: {'headphones': 12, 'mobile': 14, 'laptop': 22, 'cable': 7, 'desktop': 11}
+For example: {'headphones': 3, 'mobile': 2, 'laptop': 1, 'cable': 1, 'desktop': 4}
 
 #### Write reusable code with functions
 
